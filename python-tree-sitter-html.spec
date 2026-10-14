@@ -1,6 +1,6 @@
 Name:		python-tree-sitter-html
 Version:	0.23.2
-Release:	1
+Release:	2
 Summary:	Tree-sitter html grammar (Python bindings)
 License:	MIT
 Group:		Development/Python
@@ -9,7 +9,7 @@ Source0:	https://files.pythonhosted.org/packages/04/06/ad1c53c79da15bef85939aa02
 # PyPI sdist omits src/tree_sitter/*.h
 Source1:	tree-sitter-c-headers.tar.xz
 BuildRequires:	python
-BuildRequires:	pkgconfig(python)
+BuildRequires:	pkgconfig(python3)
 BuildRequires:	python%{pyver}dist(pip)
 BuildRequires:	python%{pyver}dist(setuptools)
 BuildRequires:	clang
